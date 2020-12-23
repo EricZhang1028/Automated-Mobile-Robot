@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/tonychen/Projects/Graduation Topic/Local_Repo_13/IM3514_Project/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/tonychen/Projects/Graduation Topic/Local_Repo_13/IM3514_Project/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/yu-chen/Desktop/IM3514_Project/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/yu-chen/Desktop/IM3514_Project/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/xml/preferences.xml"
+    }
+]

@@ -1,0 +1,72 @@
+{
+  "name": "IM3514_Project",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react-native": "^4.0.0",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest": "^23.5.0",
+    "jest-react-native": "^18.0.0",
+    "react-test-renderer": "16.3.1",
+    "rn-nodeify": "^10.0.0"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios --simulator \"iPhone X\"",
+    "test": "jest",
+    "postinstall": "npx rn-nodeify --install \"fs,util,path,tls,stream,buffer,global,process\" --hack"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "@aws-amplify/pushnotification": "^1.0.19",
+    "amazon-cognito-identity-js": "^2.0.26",
+    "asyncstorage-down": "^4.1.2",
+    "aws-amplify": "^1.1.13",
+    "aws-iot-device-sdk": "^2.2.1",
+    "aws-sdk": "^2.177.0",
+    "create-react-class": "^15.6.3",
+    "native-base": "^2.4.1",
+    "path-browserify": "0.0.0",
+    "process": "^0.11.10",
+    "quick-picker": "^1.0.0",
+    "react": "16.3.1",
+    "react-native": "~0.55.2",
+    "react-native-level-fs": "^3.0.1",
+    "react-native-multiple-select": "^0.4.4",
+    "react-native-navigation": "^1.1.486",
+    "react-native-push-notification": "^3.1.2",
+    "react-native-simple-dialogs": "^0.4.1",
+    "react-native-vector-icons": "^5.0.0",
+    "react-redux": "^5.0.7",
+    "readable-stream": "^1.0.33",
+    "redux": "^4.0.0",
+    "stream-browserify": "^1.0.0",
+    "util": "^0.10.4"
+  },
+  "react-native": {
+    "path": "path-browserify",
+    "fs": "react-native-level-fs",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify",
+    "tls": false
+  },
+  "browser": {
+    "path": "path-browserify",
+    "fs": "react-native-level-fs",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify",
+    "tls": false
+  }
+}

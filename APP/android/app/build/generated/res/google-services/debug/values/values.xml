@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">145246503016-egsplkhqbq4fdottb1ehh93vah13g2er.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://im3514pushnotification.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">145246503016</string>
+    <string name="google_api_key" translatable="false">AIzaSyAIqBzooDdCMy9rW3g84QkuSN92V8rGwmM</string>
+    <string name="google_app_id" translatable="false">1:145246503016:android:e48a5a8bec4efd61</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAIqBzooDdCMy9rW3g84QkuSN92V8rGwmM</string>
+    <string name="google_storage_bucket" translatable="false">im3514pushnotification.appspot.com</string>
+    <string name="project_id" translatable="false">im3514pushnotification</string>
+</resources>

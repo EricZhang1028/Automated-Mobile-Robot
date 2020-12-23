@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:28
+-keep class com.im3514_project.MainApplication { <init>(...); }
+

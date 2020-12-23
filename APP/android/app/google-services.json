@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "145246503016",
+    "firebase_url": "https://im3514pushnotification.firebaseio.com",
+    "project_id": "im3514pushnotification",
+    "storage_bucket": "im3514pushnotification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145246503016:android:e48a5a8bec4efd61",
+        "android_client_info": {
+          "package_name": "com.im3514_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145246503016-egsplkhqbq4fdottb1ehh93vah13g2er.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIqBzooDdCMy9rW3g84QkuSN92V8rGwmM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
